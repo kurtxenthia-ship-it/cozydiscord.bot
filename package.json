@@ -1,0 +1,15 @@
+{
+  "name": "discord-server-setup-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to automate server setup for Reckless Achievers community",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
