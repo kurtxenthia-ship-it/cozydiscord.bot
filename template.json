@@ -1,0 +1,96 @@
+{
+  "name": "RA6",
+  "description": "",
+  "icon": null,
+  "verification_level": 0,
+  "default_message_notifications": 1,
+  "explicit_content_filter": 0,
+  "roles": [
+    {
+      "name": "Community Lead",
+      "color": "#FF4646",
+      "permissions": 8,
+      "hoist": true,
+      "mentionable": true
+    },
+    {
+      "name": "Moderator",
+      "color": "#4B0082",
+      "permissions": 1099511627775,
+      "hoist": true,
+      "mentionable": true
+    },
+    {
+      "name": "Elite",
+      "color": "#00FFFF",
+      "permissions": 104324673,
+      "hoist": true,
+      "mentionable": true
+    },
+    {
+      "name": "Member",
+      "color": "#FFD700",
+      "permissions": 104189505,
+      "hoist": true,
+      "mentionable": true
+    }
+  ],
+  "channels": [
+    { "name": "LICOR", "type": 4 },
+    { "name": "law", "type": 0, "parent_id": "LICOR" },
+
+    { "name": "• 01", "type": 4 },
+    { "name": "psa", "type": 0, "parent_id": "• 01" },
+    { "name": "hos", "type": 2, "parent_id": "• 01" },
+    { "name": "banners-fs", "type": 0, "parent_id": "• 01" },
+    { "name": "boost", "type": 0, "parent_id": "• 01" },
+
+    { "name": "ROSTER", "type": 4 },
+    { "name": "s0", "type": 2, "parent_id": "ROSTER" },
+
+    { "name": "• 02", "type": 4 },
+    { "name": "wrld", "type": 0, "parent_id": "• 02" },
+    { "name": "cmds", "type": 0, "parent_id": "• 02" },
+    { "name": "socials", "type": 0, "parent_id": "• 02" },
+    { "name": "shop-ni-ziyah", "type": 0, "parent_id": "• 02" },
+
+    { "name": "• 03", "type": 4 },
+    { "name": "selfies", "type": 0, "parent_id": "• 03" },
+    { "name": "media", "type": 0, "parent_id": "• 03" },
+    { "name": "memories", "type": 0, "parent_id": "• 03" },
+
+    { "name": "• 04", "type": 4 },
+    { "name": "interface", "type": 0, "parent_id": "• 04" },
+    { "name": "j2c", "type": 0, "parent_id": "• 04" },
+    { "name": "podcast", "type": 2, "parent_id": "• 04" },
+    { "name": "$", "type": 2, "parent_id": "• 04" },
+    { "name": "L", "type": 2, "parent_id": "• 04" },
+    { "name": "A", "type": 2, "parent_id": "• 04" },
+    { "name": "V", "type": 2, "parent_id": "• 04" },
+    { "name": "R", "type": 2, "parent_id": "• 04" },
+
+    { "name": "FOUNDER'S", "type": 4 },
+    { "name": "mothers", "type": 2, "parent_id": "FOUNDER'S" },
+    { "name": "fathers", "type": 2, "parent_id": "FOUNDER'S" },
+
+    { "name": "BIG STEPPA", "type": 4 },
+    { "name": "steppers", "type": 2, "parent_id": "BIG STEPPA" },
+
+    { "name": "HOF", "type": 4 },
+    { "name": "haven", "type": 2, "parent_id": "HOF" },
+    { "name": "yuri", "type": 2, "parent_id": "HOF" },
+    { "name": "aim", "type": 2, "parent_id": "HOF" },
+    { "name": "rav", "type": 2, "parent_id": "HOF" },
+    { "name": "fallen", "type": 2, "parent_id": "HOF" },
+    { "name": "goma", "type": 2, "parent_id": "HOF" },
+    { "name": "zuki", "type": 2, "parent_id": "HOF" },
+
+    { "name": "DESK", "type": 4 },
+    { "name": "tix", "type": 2, "parent_id": "DESK" },
+
+    { "name": "• 05", "type": 4 },
+    { "name": "us", "type": 0, "parent_id": "• 05" },
+    { "name": "them", "type": 0, "parent_id": "• 05" },
+    { "name": "gang", "type": 0, "parent_id": "• 05" }
+  ]
+}
